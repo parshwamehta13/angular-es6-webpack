@@ -1,0 +1,20 @@
+@import './global.scss';
+
+.text-primary {
+    color: $primary-color !important;
+}
+.text-gray {
+    color: $dark-gray;
+}
+.text-green, .text-success {
+    color: $green !important;
+}
+.text-red, .text-alert {
+    color: $red !important;
+}
+.text-yellow{
+    color: $yellow !important;
+}
+.text-warning {
+    color: $warning-color;
+}

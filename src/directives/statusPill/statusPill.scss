@@ -1,0 +1,19 @@
+@import '../../style/global.scss';
+
+.status-pill-wrapper {
+  padding: 7px 10px 8px;
+  border: 1px solid $gray;
+  background-color: $light-gray;
+  padding: 7px 10px 8px;
+  border-radius: 30px;
+  display: inline-block;
+  .text-green-border {
+      border-color: $green;
+  };
+  .text-red-border {
+      border-color: $red;
+  };
+  .text-primary-border {
+      border-color: $primary;
+  };
+}
