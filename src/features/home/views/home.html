@@ -1,0 +1,23 @@
+<div class="home-wrapper" style="padding: 20px">
+    <div class="home-header row">
+        <h3>Directives</h3>
+    </div>
+    <div class="home-content row">
+        <table class="hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody style="cursor: pointer">
+                <tr ng-repeat="directive in home.directiveList">
+                    <td ui-sref="statusPill">
+                        <a>{{ directive.displayName }}</a>
+                    </td>
+                    <td>{{ directive.description }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
