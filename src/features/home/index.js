@@ -6,10 +6,9 @@ import uirouter from 'angular-ui-router';
 
 import routing from './home.routes';
 import HomeController from './controllers/home.controller';
-import directives from '../../directives/statusPill';
 import StatusPillWrapperController from './controllers/statusPillWrapper.controller';
 
-export default angular.module('app.home', [uirouter, directives])
+export default angular.module('app.home', [])
   .config(routing)
   .controller('HomeController', HomeController)
   .controller('StatusPillWrapperController', StatusPillWrapperController)
