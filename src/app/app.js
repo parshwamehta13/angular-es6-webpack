@@ -8,9 +8,10 @@ import angular from 'angular';
 import uirouter from 'angular-ui-router';
 import angularTooltip from 'angular-tooltips';
 import jsonFormatter from 'jsonformatter';
+import directives from '../directives'
 
 import routing from './app.config';
 import home from '../features/home';
 
-angular.module('app', [uirouter, home, angularTooltip, jsonFormatter])
+angular.module('app', [uirouter, home, angularTooltip, jsonFormatter, directives])
   .config(routing);
