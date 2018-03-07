@@ -1,5 +1,6 @@
 import 'foundation-sites/scss/_global.scss';
 import 'foundation-sites/scss/foundation.scss';
+import './styles/home.scss';
 
 import angular from 'angular';
 import uirouter from 'angular-ui-router';
