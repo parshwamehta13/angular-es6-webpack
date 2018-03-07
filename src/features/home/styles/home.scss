@@ -1,0 +1,15 @@
+.json-editor-wrapper {
+    width: 50%;
+    table {
+        margin-bottom: 0px;
+        tbody {
+            border: none;
+            tr {
+                background-color: white;
+            }
+        }
+    }
+    .jsoneditor-results {
+        display: none;
+    }
+}

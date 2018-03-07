@@ -8,7 +8,15 @@
         </div>
         <div class="directive-configuration row">
             <h4>Configuration</h4>
-            <pre>{{statusPill.configuration | json}}</pre>
+            <!-- <json-formatter json="statusPill.configuration" open="9"></json-formatter> -->
+        </div>
+    </div>
+    <div style="margin-top: 30px">
+        <div class="col">
+            <div class="json-editor-wrapper" style="width: 50%">
+                <angular-jsoneditor ng-model="statusPill.configuration" options="statusPill.obj.options"></angular-jsoneditor>
+                <button style="margin-top: 10px" class="button primary" ng-click="statusPill.changeOptions()">Toggle JSON Editor</button>
+            </div>
         </div>
     </div>
 </div>
